@@ -19,7 +19,7 @@ public class CollisionTest : MonoBehaviour {
         {
             //Destroy(gameObject);
             //transform.Translate(0, 0.5F, 0);
-             
+             transform.position = new Vector3 (0, 0.5F, 0);
         }
     }
     void OnCollisionExit()
